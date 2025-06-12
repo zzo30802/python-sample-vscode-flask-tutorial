@@ -35,3 +35,7 @@ steps:
     pip install pytest pytest-azurepipelines
     pytest
   displayName: 'pytest'
+
+- script: echo Hellom world!
+  displayName: 'Run a one-line script'
+  

@@ -23,6 +23,7 @@ strategy:
 
 steps:
 - script: echo '$(Build.BuildNumber)'
+- script: echs '$(Shawn)'
 - task: UsePythonVersion@0
   inputs:
     versionSpec: '$(python.version)'
